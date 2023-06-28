@@ -13,7 +13,7 @@ spec:
         app: ms-usuarios-server
     spec:
       containers:
-      - image: usuarios=4xe1/usuarios:latest
+      - image: 4xe1/usuarios:latest
         name: usuarios
         ports:
         - containerPort: 8001
